@@ -65,8 +65,7 @@
     }
   },
   "filtering": {
-    "ai_score_threshold": 3.0,       // 降到 2.0，幾乎所有新聞都會通過
-    "time_window_hours": 72,         // 擴大到 72 小時，確保有足夠的量
-    "max_items_per_summary": 15      // 限制每份日報最多 15 則，避免太亂
+    "ai_score_threshold": 2.0,
+    "time_window_hours": 72
   }
 }
