@@ -5,16 +5,8 @@
     "model": "gemini-1.5-flash",
     "api_key_env": "GOOGLE_API_KEY",
     "temperature": 0.3,
-<<<<<<< HEAD
     "max_tokens": 4096,
-    "languages": ["en", "zh"] 
-=======
-    "max_tokens": 8192,
-    "languages": [
-      "zh",
-      "en"
-    ]
->>>>>>> 55391b196c141145e40e025cdf09d1c0ff5c6258
+    "languages": ["en", "zh"]
   },
   "sources": {
     "github": [
@@ -36,31 +28,18 @@
       "min_score": 100
     },
     "rss": [
-      {
-        "name": "Simon Willison",
-        "url": "https://simonwillison.net/atom/everything/",
-        "enabled": true,
-        "category": "ai-tools"
-      },
-      {
-        "name": "LWN.net (subscriber full-text)",
-        "url": "https://lwn.net/headlines/full_text?key=${LWN_KEY}",
-        "enabled": false,
-        "category": "linux"
-      }
       { "name": "阿榮福利味", "url": "http://feeds.feedburner.com/azo-freeware", "enabled": true, "category": "software" },
-  { "name": "㊣軟體玩家", "url": "http://feeds.feedburner.com/quicktop", "enabled": true, "category": "software" },
-  { "name": "電腦玩物", "url": "http://feeds.feedburner.com/playpc", "enabled": true, "category": "software" },
-  { "name": "免費資源網路社群", "url": "http://feeds.feedburner.com/freegroup", "enabled": true, "category": "software" },
-  { "name": "簡睿隨筆", "url": "http://jdev.tw/blog/feed", "enabled": true, "category": "software" },
-  { "name": "T客邦", "url": "http://feeds.feedburner.com/techbang", "enabled": true, "category": "tech-news" },
-  { "name": "INSIDE", "url": "http://www.inside.com.tw/feed", "enabled": true, "category": "tech-news" },
-  { "name": "阿簡生物筆記", "url": "http://a-chien.blogspot.com/feeds/posts/default", "enabled": true, "category": "science" },
-  { "name": "TechNews 科技新報", "url": "http://technews.tw/feed/", "enabled": true, "category": "tech-news" },
-  { "name": "TechOrange", "url": "http://feeds.feedburner.com/techorange", "enabled": true, "category": "tech-news" },
-  { "name": "iThome Online", "url": "http://www.ithome.com.tw/rss.php", "enabled": true, "category": "tech-news" },
-  { "name": "數位時代 BusinessNext", "url": "https://www.bnext.com.tw/rss", "enabled": true, "category": "tech-news" }
-      
+      { "name": "㊣軟體玩家", "url": "http://feeds.feedburner.com/quicktop", "enabled": true, "category": "software" },
+      { "name": "電腦玩物", "url": "http://feeds.feedburner.com/playpc", "enabled": true, "category": "software" },
+      { "name": "免費資源網路社群", "url": "http://feeds.feedburner.com/freegroup", "enabled": true, "category": "software" },
+      { "name": "簡睿隨筆", "url": "http://jdev.tw/blog/feed", "enabled": true, "category": "software" },
+      { "name": "T客邦", "url": "http://feeds.feedburner.com/techbang", "enabled": true, "category": "tech-news" },
+      { "name": "INSIDE", "url": "https://www.inside.com.tw/feed", "enabled": true, "category": "tech-news" },
+      { "name": "阿簡生物筆記", "url": "http://a-chien.blogspot.com/feeds/posts/default", "enabled": true, "category": "science" },
+      { "name": "TechNews 科技新報", "url": "http://technews.tw/feed/", "enabled": true, "category": "tech-news" },
+      { "name": "TechOrange", "url": "http://feeds.feedburner.com/techorange", "enabled": true, "category": "tech-news" },
+      { "name": "iThome Online", "url": "https://www.ithome.com.tw/rss", "enabled": true, "category": "tech-news" },
+      { "name": "數位時代 BusinessNext", "url": "https://www.bnext.com.tw/rss", "enabled": true, "category": "tech-news" }
     ],
     "reddit": {
       "enabled": true,
@@ -86,7 +65,7 @@
     }
   },
   "filtering": {
-    "ai_score_threshold": 6.0,
-    "time_window_hours": 24
+    "ai_score_threshold": 4.5,
+    "time_window_hours": 48
   }
 }
